@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
