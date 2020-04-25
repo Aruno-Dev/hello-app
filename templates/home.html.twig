@@ -5,7 +5,7 @@
     <div class="content">
         <h1 class="title">Hello from France</h1>
         <img src="{{ asset('/img/frFlag.jpg') }}" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="French Flag">
-        <p>It is currently {{'now'|date('H:i A')}}</p>
+        <p>It is currently {{'now'|date('H:i A', 'Europe/Paris')}}</p>
         <p>&copy; Copyright 2019 - {{'now'|date('Y')}}</p>
     </div>
 </div>
